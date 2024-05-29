@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  color: black;
+}
+.nav-link:hover {
+  background-color: #0d6efd;
+  color: white;
+}
+body {
+  width: 100%;
+  margin: 0;
+}
+.btn {
+  font-size: 1.1vw;
+}
+.button {
+  align-items: center;
+}
+.img-container {
+  position: relative;
+}
+
+.img-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-12%, -23%);
+  color: white;
+  text-align: center;
+}
+.card {
+  width: 437px;
+}
+.mt-4 {
+  margin-top: 4.5rem !important;
+}
+.btn-primary {
+  --bs-btn-color: #0d6efd;
+  --bs-btn-bg: white;
+}
+.cardH:hover {
+  transform: scale(1.2);
+  filter: drop-shadow(-7px 4px 6px black);
+}
+
+.styimg:hover {
+  filter: opacity(0.6);
+}
+.div-r {
+  position: relative;
+}
+
+.text-a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 40%);
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.btnForAll {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.styimg:hover + .text-a {
+  opacity: 1;
+}
+
+@media screen and (max-width: 1200px) {
+  .img-caption {
+    transform: translate(-50%, -50%);
+  }
+  .nav {
+    justify-content: center;
+  }
+  .DwellQuest {
+    text-align: center;
+  }
+}
+.colorBtn {
+  color: black;
+  border: 1px solid black;
+}
+.colorBtn:hover {
+  color: #fff;
+}
